@@ -15,6 +15,10 @@ run/main_scene="res://scenes/game_stage.tscn"
 boot_splash/use_filter=false
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://scenes/Global.tscn"
+
 [display]
 
 window/size/width=180
