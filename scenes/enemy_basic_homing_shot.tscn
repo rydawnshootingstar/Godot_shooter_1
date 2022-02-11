@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/weapon1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://sprites/laser_enemy.png" type="Texture" id=2]
+
+[node name="enemy_basic_homing_shot" instance=ExtResource( 1 )]
+velocity = Vector2( 0, 130 )
+
+[node name="Sprite" parent="." index="1"]
+texture = ExtResource( 2 )
+
+[node name="vis_notifier" parent="." index="2"]
+position = Vector2( -5.36442e-07, 2.38419e-07 )
+scale = Vector2( 0.5, 0.7 )
